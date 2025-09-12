@@ -1,0 +1,814 @@
+{
+    "5.0.0": [
+        {
+            "Id": "When Sold:",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "When Sold:",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Charge",
+            "Icon": "AdvanceIcon",
+            "Singleton": false,
+            "PostSymbol": true,
+            "PostWord": false,
+            "Tag": "Charge",
+            "Keyword": "Immediately advances an item's Cooldown.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Income",
+            "Icon": "IncomeIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Income",
+            "Keyword": "The amount of Gold you gain at the start of each day.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Invalid",
+            "Icon": "Invalid",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Invalid",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "small",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "small",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Haste",
+            "Icon": "Invalid",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Haste",
+            "Keyword": "Items with Haste charge twice as fast.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Max Health",
+            "Icon": "HealthIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Max Health",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Burn",
+            "Icon": "BurnIcon",
+            "Singleton": false,
+            "PostSymbol": true,
+            "PostWord": false,
+            "Tag": "<color=#FA943EFF>Queimar</color>",
+            "Keyword": "Damages Players twice per second. Every time Burn deals Damage it decreases by one.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Lifesteal",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Lifesteal",
+            "Keyword": "When dealing Damage, recover Health equal to the amount of Damage dealt.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Cooldown",
+            "Icon": "CooldownIcon",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Cooldown",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Healing",
+            "Icon": "HealthIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Healing",
+            "Keyword": "Recover your Health, up to your Max Health. Cleanses 5% Poison and Burn.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Burned",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Burned",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Gold",
+            "Icon": "MoneyIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Bank",
+            "Keyword": "The amount of Gold you currently have.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Heal",
+            "Icon": "HealthIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Heal",
+            "Keyword": "Recover your Health, up to your Max Health. Cleanses 5% Poison and Burn.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "large",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "large",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Upgrade",
+            "Icon": "Invalid",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "upgrade",
+            "Keyword": "Increases an item's tier, which improves its effectiveness and value.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Reroll",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Reroll",
+            "Keyword": "Reroll this Merchant's supply.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Aquatic",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Aquatic",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Flying",
+            "Icon": "AltitudeIcon",
+            "Singleton": false,
+            "PostSymbol": true,
+            "PostWord": false,
+            "Tag": "Flying",
+            "Keyword": "Flying items are affected by Freeze and Slow for half as long.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "ALL",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "ALL",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Tricast",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Tricast",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Non-",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Non-",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Joy",
+            "Icon": "JoyIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Joy",
+            "Keyword": "Blocks all Damage. If you fill your Health bar with Joy you win the fight.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Crit Chance",
+            "Icon": "CritChanceIcon",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "CritChance",
+            "Keyword": "The chance for an item with a Cooldown to critically hit, doubling its Damage, Heal, Shield, Regen, Burn and Poison active effects.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Properties",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Properties",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Exit",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Leave Encounter",
+            "Keyword": "Exit this encounter.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Ammo",
+            "Icon": "AmmoIcon",
+            "Singleton": false,
+            "PostSymbol": true,
+            "PostWord": true,
+            "Tag": "Ammo",
+            "Keyword": "When an item runs out of Ammo, it can no longer fire. Ammo refills after each fight.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "No Space",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "NoSpace",
+            "Keyword": "You have no space for that.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Victories",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Victories: <size=150%><color=#EB9E50>{1}</size></color>",
+            "Keyword": "You are playing Normal mode. Gain {0} victories to complete your run! Earn chests at 4, 7, and {0} victories.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "VictoriesRanked",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Victories: <size=150%><color=#EB9E50>{1}</size></color>",
+            "Keyword": "You are playing Ranked mode. Gain {0} victories to complete your run! Earn chests at 4, 7, and {0} victories.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Tools",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Tools",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Experience",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Experience",
+            "Keyword": "Collect 8 XP to gain a level. New levels provide Max Health, board slots, and special rewards.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Unsellable",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "unsellable",
+            "Keyword": "This item cannot be sold.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Core",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Core",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Prestige",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Prestige: <size=150%><color=#EB9E50>{1}</size></color><color=#a0845b>/{0}</color>",
+            "Keyword": "Losing fights against Players results in prestige loss equal to the day. If your prestige hits zero, your run ends.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Weapons",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Weapons",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Damage",
+            "Icon": "DamageIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Damage",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Slow",
+            "Icon": "Invalid",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Slow",
+            "Keyword": "Items with Slow charge half as fast.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Quadcast",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Quadcast",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Reload",
+            "Icon": "Invalid",
+            "Singleton": false,
+            "PostSymbol": true,
+            "PostWord": false,
+            "Tag": "Reload",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Enchant",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Enchant",
+            "Keyword": "Adds a unique new effect to the item.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Property",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Property",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Potion",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Potion",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Tool",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Tool",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Vehicle",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Vehicle",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Food",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Food",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Weapon",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Weapon",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "ANY",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "ANY",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Dualcast",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Dualcast",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "hour",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "hour",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "NestedCardEffect",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "NestedCardEffect",
+            "Keyword": "Card Effects",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Poison",
+            "Icon": "PoisonIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Poison",
+            "Keyword": "Damages Players every second.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "medium",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "medium",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "BOTH",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "BOTH",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Ingredient",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Ingredient",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Friend",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Friend",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "CritText",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "CritText",
+            "Keyword": "Crit Chance",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Merchant",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Merchant",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "day",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "day",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Value",
+            "Icon": "MoneyIcon",
+            "Singleton": false,
+            "PostSymbol": true,
+            "PostWord": true,
+            "Tag": "Value",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Clock",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Time/Day",
+            "Keyword": "It is currently <color=#FED5AC>hour {0}</color> on <color=#FED5AC>day {1}</color>.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Poisoned",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Poisoned",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Regen",
+            "Icon": "RegenerationIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Regeneration",
+            "Keyword": "Adds Health equal to your Regen every second.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Stash",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "stash",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Cannot Afford",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "CannotAfford",
+            "Keyword": "You can't afford that.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Frozen",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Frozen",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Health",
+            "Icon": "Invalid",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Health",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "NestedTooltipBase",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "NestedTooltipBase",
+            "Keyword": "Base",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Freeze",
+            "Icon": "FreezeIcon",
+            "Singleton": false,
+            "PostSymbol": true,
+            "PostWord": false,
+            "Tag": "Freeze",
+            "Keyword": "Frozen items cannot activate.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Shield",
+            "Icon": "ShieldIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Shield",
+            "Keyword": "Blocks Damage. Ignored by Poison and reduces Burn Damage by 50%.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Just Purchased",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "JustPurchased",
+            "Keyword": "They don't want to buy this item.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Multicast",
+            "Icon": "Invalid",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Multicast",
+            "Keyword": "When you use this item, its effect happens multiple times.",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Shielding",
+            "Icon": "ShieldIcon",
+            "Singleton": false,
+            "PostSymbol": false,
+            "PostWord": true,
+            "Tag": "Shielding",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Ray",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Ray",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Dragon",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Dragon",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Loot",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Loot",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Dinosaur",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Dinosaur",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Apparel",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Apparel",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Toy",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Toy",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Tech",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Tech",
+            "Keyword": "",
+            "Version": "5.0.0"
+        },
+        {
+            "Id": "Transform",
+            "Icon": "Invalid",
+            "Singleton": true,
+            "PostSymbol": false,
+            "PostWord": false,
+            "Tag": "Transform",
+            "Keyword": "Changes an item into a new form. Retains tier and Enchantments if able. Legendaries cannot be transformed.",
+            "Version": "5.0.0"
+        }
+    ]
+}   
