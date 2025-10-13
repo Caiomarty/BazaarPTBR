@@ -7,9 +7,9 @@ import os
 import shutil
 import threading
 
-OWNER = "Fesantt"
-REPO = "HardenedEntropyCipher"
-ASSET_NAME = "v11"
+OWNER = "Caiomarty"
+REPO = "BazaarPTBR"
+ASSET_NAME = "cards.json"
 
 DEST_DIR = os.path.join(os.path.expanduser("~"), "AppData", "LocalLow", "The Bazaar", "prod", "cache")
 VERSION_FILE = os.path.join(os.path.dirname(os.path.realpath(__file__)), "version.txt")
